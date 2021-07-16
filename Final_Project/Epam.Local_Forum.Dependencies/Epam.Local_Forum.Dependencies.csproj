@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Epam.Local_Forum.DAL.Interfaces\Epam.Local_Forum.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Epam.Local_Forum.DAL\Epam.Local_Forum.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
