@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Epam.Local_Forum.DAL.Interfaces\Epam.Local_Forum.DAL.Interfaces.csproj" />
     <ProjectReference Include="..\Epam.Local_Forum.Entities\Epam.Local_Forum.Entities.csproj" />
   </ItemGroup>

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Epam.Local_Forum.BLL.Interfaces\Epam.Local_Forum.BLL.Interfaces.csproj" />
     <ProjectReference Include="..\Epam.Local_Forum.DAL.Interfaces\Epam.Local_Forum.DAL.Interfaces.csproj" />
     <ProjectReference Include="..\Epam.Local_Forum.DAL\Epam.Local_Forum.DAL.csproj" />
     <ProjectReference Include="..\Epam.Local_Forum.Entities\Epam.Local_Forum.Entities.csproj" />
